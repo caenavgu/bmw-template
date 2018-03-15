@@ -1,0 +1,14 @@
+/*
+*   Modules dependencies
+*/
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+@import 'colors';
+
+body {
+	background-color: $color-pink;
+}
+
+.row{
+    background-color: gold;
+}
