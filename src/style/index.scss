@@ -3,12 +3,13 @@
 */
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
-@import 'colors';
+@import "colors";
+@import "tipography";
 
 body {
-	background-color: $color-pink;
+	background-color: $color-background-light;
+	font: $font-text-bold;
 }
-
-.row{
-    background-color: gold;
+.pos-f-t{
+	background-color: $color-navbar;
 }
