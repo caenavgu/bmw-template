@@ -6,10 +6,78 @@
 @import "colors";
 @import "tipography";
 
+// TAGS
 body {
 	background-color: $color-background-light;
-	font: $font-text-bold;
+	font-family: $font-text;
 }
+a{
+	text-decoration: underline;
+	color: $color-text-light;
+}
+
+// CLASS
 .pos-f-t{
 	background-color: $color-navbar;
+}
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+.center-div
+{
+     margin: 0 auto;
+     width: 100px;
+}
+.card-body{
+	background-color: $color-background-light;
+}
+.card{
+	border: none;
+}
+
+.card-img-top{
+	border-style: solid;
+	border-color: White;
+	border-width: 0.5px;
+}
+
+.fa-star{
+	font-size:0.5em;
+	color:$color-stars;
+
+}
+
+//ID
+#jumbotronHome1{
+	background-image: url('http://via.placeholder.com/600x400');
+	background-size: cover;
+	height: 600px;
+	padding: 0px;
+	margin: 0px;
+}
+#awardsRecognition{
+	background-color: $color-background-dark;
+	color: $color-text-light;
+	height: 250px;
+}
+#socialMediaLogo{
+  font-size:1em;
+  color:$color-text-dark;
+}
+#jumbotronHome2{
+	background-image: url('http://via.placeholder.com/600x300');
+	background-size: cover;
+	height: 500px;
+	padding: 0px;
+	margin: 0px;
+}
+#separators{
+	background-color: $color-navbar;
+	height: 80px;
+}
+#footer{
+	background-color: $color-background-dark;
+	color: $color-text-light;
 }
