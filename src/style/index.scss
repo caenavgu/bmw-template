@@ -37,11 +37,7 @@ a{
 	border: none;
 }
 
-.card-img-top{
-	border-style: solid;
-	border-color: White;
-	border-width: 0.5px;
-}
+
 
 .fa-star{
 	font-size:0.5em;
@@ -51,8 +47,9 @@ a{
 
 //ID
 #jumbotronHome1{
-	background-image: url('http://via.placeholder.com/600x400');
-	background-size: cover;
+	background-image: url('../../dist/public/img/banner1.jpg');
+	background-size: 100% ;
+
 	height: 600px;
 	padding: 0px;
 	margin: 0px;
@@ -70,14 +67,48 @@ a{
 	background-image: url('http://via.placeholder.com/600x300');
 	background-size: cover;
 	height: 500px;
-	padding: 0px;
-	margin: 0px;
 }
 #separators{
 	background-color: $color-navbar;
-	height: 80px;
 }
 #footer{
 	background-color: $color-background-dark;
 	color: $color-text-light;
 }
+
+.buttonCard{
+	margin-top: -80px;
+}
+.padding-all{
+	padding: 20px 0 20px 0;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.logo-card{
+		width: 50%;
+
+		margin: 0 auto;
+	}
+
+ }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+
+ }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#jumbotronHome1{
+
+	background-size: 200% 100% ;
+	background-position:center;
+}
+ }
