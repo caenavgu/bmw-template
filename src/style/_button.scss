@@ -1,20 +1,36 @@
 @import "colors";
 
-// .btn {
-//   border-radius:50px  50px;
-//   background-color: $color-button;
-//   border: 0px;
-//   border-color: $color-button; /*set the color you want here*/
-// }
-//
-// /*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
-// .btn-primary {
-//     color: #fff;
-//     background-color: #0495c9;
-//     border-color: #357ebd; /*set the color you want here*/
-// }
-// .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-//     color: #fff;
-//     background-color: #00b3db;
-//     border-color: #285e8e; /*set the color you want here*/
-// }
+.btn{
+    color: $color-text-light;
+    background-color: $color-button;
+    border-radius: 22.5px 22.5px;
+    border: 0px;
+    font-family: $font-text;
+    &:hover{
+      background-color: $color-background-dark;
+    }
+    &:focus{
+      background-color: $color-button;
+    }
+    &:active{
+      background-color: $color-background-light;
+    }
+}
+.btw-l{
+  width: 193px;
+  height: 45px;
+  font-size: : 14px;
+  font-style: bold;
+}
+.btw-m{
+  width: 252px;
+  height: 45px;
+  font-size: : 13px;
+  font-style: bold;
+}
+.btw-s{
+  width: 118px;
+  height: 27px;
+  font-size: : 10px;
+  border-radius: 13px 13px;
+}
