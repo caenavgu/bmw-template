@@ -14,10 +14,15 @@ body {
 	font-family: $font-text;
 }
 a{
-	text-decoration: underline;
 	color: $color-text-light;
 }
-
+label{
+	margin-bottom: 0px;
+}
+input{
+	height: 27px;
+	margin-right: 10px;
+}
 // CLASS
 .pos-f-t{
 	background-color: $color-navbar;
@@ -38,7 +43,7 @@ a{
 	border: none;
 }
 .fa-star{
-	font-size:0.5em;
+	font-size:1em;
 	color:$color-stars;
 }
 .jumbotronHome1{
@@ -50,9 +55,36 @@ a{
 	margin: 0px;
 }
 .jumbotronHome2{
-	background-image: url('http://via.placeholder.com/600x300');
+	background-image: url('../../dist/public/img/banner2.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 500px;
+	padding: 0px;
+	margin: 0px;
+	color: $color-text-light;
+}
+.card-img-top2{
+	height: 500px;
+	width: 500px;
+	padding: 0px;
+	margin-top: -120px;
+	margin-bottom: -150px;
+}
+.card-img-top3{
+	height: 500px;
+	width: 500px;
+	padding: 0px;
+	margin-top: -160px;
+	margin-bottom: -150px;
+	margin-left: -20px;
+}
+.paragraph{
+	margin-left: 100px;
+	width: 300px;
+}
+.logoAward{
+	margin-top: 35px;
+  margin-left: -160px;
 }
 .awardsRecognition{
 	background-color: $color-background-dark;
@@ -62,13 +94,17 @@ a{
 .separators{
 	background-color: $color-navbar;
 }
+.media-body{
+	font-size: 14px;
+}
 .footer{
 	background-color: $color-background-dark;
 	color: $color-text-light;
 }
 .socialMediaLogo{
-  font-size:1em;
+  font-size:1.5em;
   color:$color-text-dark;
+	padding-left: 100px;
 }
 .buttonCard{
 	margin-top: -80px;
@@ -99,8 +135,49 @@ a{
 .row-fluid{
 	&.awardsRecognition{
 		margin-top: 90px;
-		border: solid 5px;
-		border-color: red;
 	}
+}
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.submit{
+	font-size: 10px;
+}
+.clickHere{
+	text-decoration: underline;
+}
+.rounded{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.footClient{
+	font-size: 9px;
+}
+.footer{
+	font-size: 10px;
+	margin: 0px;
+	padding: 40px;
+}
+.logoFooterArea{
+	color:$color-navbar;
+	margin-left: 10px;
+	&.p1{
+		font-size: 10px;
+		margin: 0px;
+	}
+	&.p2{
+		font-size: 8px;
+	}
+}
+.footerLink{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.titleFooter{
+	font-size: 14px;
+}
+.footerImage{
+	margin-left: 5px;
 }
 //ID
