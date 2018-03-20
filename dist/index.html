@@ -2,46 +2,51 @@
 <html>
   <head>
       <title>Page Title</title>
-
+       <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <!-- JUMBOTROM -->
-    <div class="jumbotron text-center" id="jumbotronHome1">
-      <img class="card-img-top" src="../src/img/bmwLogo.png">
-      <button class="btn  align-text-bottom" href="#" role="button">Request a quote</button>
+    <div class="parent">
+        <div class="jumbotron text-center jumbotronHome1">
+            <div class="logo-card">
+                <img class="card-img-top" src="../public/img/bmwLogo.png">
+            </div>
+
+          <button class="btn btw-l align-text-bottom" href="#" role="button">Request a quote</button>
+        </div>
     </div>
     <!-- END -->
-    <div class="row" id="separators">
-      <div class="col-md-12 text-center">
+    <div class="row separators">
+      <div class="col-md-12 text-center padding-all">
         <h5>Our services</h5>
       </div>
     </div>
     <!-- CARD GROUP -->
     <div class="card-group">
       <div class="card">
-        <img class="card-img-top" src="http://via.placeholder.com/450x150" alt="Card image cap">
+        <div class=" col-md-12 left"> </div>
         <div class="card-body text-center">
           <div class="buttonCard">
             <h5 class="card-title">Card title</h5>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btw-m">Primary</button>
           </div>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="http://via.placeholder.com/450x150" alt="Card image cap">
+        <div class="col-md-12  rigth"></div>
         <div class="card-body text-center">
           <div class="buttonCard">
             <h5 class="card-title">Card title</h5>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btw-m">Primary</button>
           </div>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
     <!--  -->
-    <div class="row hidden-sm-down" id="awardsRecognition">
-      <div class="col-md-12 text-center">
+    <div class="row-fluid text-center awardsRecognition">
         <h5>Awards and Recognition</h5>
         <div class="text-center">
           <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
@@ -51,10 +56,9 @@
         </div>
         <p>Best Miami Weddingis proud to be recognized of the most important and influential publications and organizations around the world</p>
         <a href="https://www.w3schools.com">Click here to learn more about our awards.</a>
-      </div>
     </div>
     <!-- JUMBOTROM -->
-    <div class="jumbotron hidden-sm-down" id="jumbotronHome2">
+    <div class="jumbotron hidden-sm-down jumbotronHome2">
       <div class="col-md-6">
         <img class="card-img-top" src="../src/img/bmwLogo.png">
         <p class="col-md-6 text-center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -66,7 +70,7 @@
       </div>
     </div>
     <!--  -->
-    <div class="row" id="separators">
+    <div class="row separators">
       <div class="col-md-12 text-center">
         <h5>Client's Testimonials</h5>
       </div>
@@ -94,10 +98,10 @@
     </div>
     <!--  -->
     <!-- SOCIAL MEDIA BAR -->
-    <div class='container-fluid'>
-      <div class='row' id="separators">
+    <div class="container-fluid">
+      <div class="row separators">
         <div class="col-md-4 offset-md-2 rounded float-left">
-          <div id="socialMediaLogo vcenter">
+          <div class="socialMediaLogo vcenter">
             <i class="fab fa-instagram"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-facebook-f"></i>
@@ -111,7 +115,7 @@
                 <label for="email">Email address:</label>
                 <div class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-primay" type="submit">Search</button>
+                    <button class="btn btw-s" type="submit">Search</button>
                 </div>
               </div>
         </form>
@@ -119,7 +123,7 @@
       </div>
     </div>
     <!--  -->
-    <div class='container hidden-sm-down'>
+    <div class='container'>
       <div class='row'>
         <div class=" col-md-12 text-center">
           <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
@@ -133,7 +137,7 @@
       </div>
     </div>
     <!-- FOOTER -->
-    <div class='container-fluid' id="footer" >
+    <div class="container-fluid footer" >
       <div class='row'>
         <div class=" col-md-2 text-center">
           <h6>The company</h6>
@@ -178,7 +182,7 @@
     <!--  -->
   </body>
       <!-- SCRIPT -->
-      <script type="text/javascript" src="./bundle.js?v2"></script>
+      <script type="text/javascript" src="dist/bundle.js?v2"></script>
       <!--  -->
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
       <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>

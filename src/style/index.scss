@@ -6,6 +6,7 @@
 @import "colors";
 @import "tipography";
 @import "button";
+@import "display";
 
 // TAGS
 body {
@@ -26,8 +27,7 @@ a{
 	vertical-align: middle;
 	float: none;
 }
-.center-div
-{
+.center-div{
      margin: 0 auto;
      width: 100px;
 }
@@ -37,48 +37,70 @@ a{
 .card{
 	border: none;
 }
-
-.card-img-top{
-	border-style: solid;
-	border-color: White;
-	border-width: 0.5px;
-}
-
 .fa-star{
 	font-size:0.5em;
 	color:$color-stars;
-
 }
-
-//ID
-#jumbotronHome1{
-	background-image: url('http://via.placeholder.com/600x400');
-	background-size: cover;
+.jumbotronHome1{
+	background-image: url('../../dist/public/img/banner1.jpg');
+	background-size: 100% ;
+	background-repeat: no-repeat;
 	height: 600px;
 	padding: 0px;
 	margin: 0px;
 }
-#awardsRecognition{
+.jumbotronHome2{
+	background-image: url('http://via.placeholder.com/600x300');
+	background-size: cover;
+	height: 500px;
+}
+.awardsRecognition{
 	background-color: $color-background-dark;
 	color: $color-text-light;
 	height: 250px;
 }
-#socialMediaLogo{
-  font-size:1em;
-  color:$color-text-dark;
-}
-#jumbotronHome2{
-	background-image: url('http://via.placeholder.com/600x300');
-	background-size: cover;
-	height: 500px;
-	padding: 0px;
-	margin: 0px;
-}
-#separators{
+.separators{
 	background-color: $color-navbar;
-	height: 80px;
 }
-#footer{
+.footer{
 	background-color: $color-background-dark;
 	color: $color-text-light;
 }
+.socialMediaLogo{
+  font-size:1em;
+  color:$color-text-dark;
+}
+.buttonCard{
+	margin-top: -80px;
+	position: relative;
+	color: $color-text-light;
+}
+.padding-all{
+	padding: 20px 0 20px 0;
+}
+.col-md-12{
+	&.left{
+		background-image: url('../../dist/public/img/card-home-left.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250px;
+		padding: 0px;
+		margin: 0px;
+	}
+	&.rigth{
+		background-image: url('../../dist/public/img/card-home-right.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250px;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+.row-fluid{
+	&.awardsRecognition{
+		margin-top: 90px;
+		border: solid 5px;
+		border-color: red;
+	}
+}
+//ID
