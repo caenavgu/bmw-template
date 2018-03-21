@@ -23,6 +23,10 @@ input{
 	height: 27px;
 	margin-right: 10px;
 }
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
 // CLASS
 .pos-f-t{
 	background-color: $color-navbar;
@@ -52,7 +56,7 @@ input{
 	background-image: url('../../dist/public/img/banner1.jpg');
 	background-size: 100% ;
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 550px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -66,32 +70,27 @@ input{
 	color: $color-text-light;
 }
 .card-img-top2{
-	height: 500px;
-	width: 500px;
-	padding: 0px;
-	margin-top: -120px;
-	margin-bottom: -150px;
+	width: 60%;
+    margin-top: 40px;
 }
 .card-img-top3{
-	height: 500px;
-	width: 500px;
-	padding: 0px;
-	margin-top: -160px;
-	margin-bottom: -150px;
-	margin-left: -20px;
+	width: 100%;
+}
+.card-img-top4{
+	margin-top: 150px;
+	max-width: 100%;
 }
 .paragraph{
-	margin-left: 100px;
-	width: 300px;
+    margin: 0 auto;
+
 }
 .logoAward{
 	margin-top: 35px;
-  margin-left: -160px;
+  	margin: 0 auto;
 }
 .awardsRecognition{
 	background-color: $color-background-dark;
 	color: $color-text-light;
-	height: 250px;
 }
 .separators{
 	background-color: $color-navbar;
@@ -160,8 +159,8 @@ input{
 	}
 }
 .rounded{
-	margin-left: 30px;
 	margin-right: 30px;
+	margin-top: 10px;
 }
 .footClient{
 	font-size: 9px;
@@ -173,7 +172,6 @@ input{
 }
 .logoFooterArea{
 	color:$color-navbar;
-	margin-left: 10px;
 	&.p1{
 		font-size: 8px;
 		margin: 0px;
@@ -195,4 +193,93 @@ input{
 .footerImage{
 	margin-left: 5px;
 }
+.floating-half{
+	width: 50%;
+	float: left;
+}
+	.mobile-footer{
+		font-size: 15.3px;
+	}
+	.img-group-1{
+		display: inline-block;
+	}
 //ID
+/* Large desktop */
+@media (min-width: 1200px) {
+	.logo-card{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.mobile-footer{
+		display: none;
+		padding: 0;
+	}
+ }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.jumbotronHome1{
+    background-size: 100% 100% ;
+    background-position:center;
+  }
+  .mobile-footer{
+		display: none;
+		padding: 0;
+	}
+
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.jumbotronHome1{
+    background-size: 100% 100% ;
+    background-position:center;
+  }
+	.form-group,.group-images,.text-testimonial,.principal-footer{
+		display: none;
+	}
+ }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .jumbotronHome1{
+    background-size: 200% 100% ;
+    background-position:center;
+  }
+  .jumbotronHome2{
+  	height: 400px;
+  }
+	.buttonCard{
+		margin-top: 10px;
+		color: $color-text-dark;
+	}
+	.row-fluid{
+		&.awardsRecognition{
+			margin-top: 0px;
+		}
+	}
+	.card-body{
+		height: 250px;
+	}
+	.card-text{
+		margin-top: 20px;
+	}
+	.img-group-1{
+		margin-top: 20px;
+	}
+	.awardsRecognition {
+		height: 400px;
+	}
+	.form-group,.group-images,.text-testimonial,.principal-footer{
+		display: none;
+	}
+	.mr-3{
+		float: left;
+	}
+	.media-body{
+		text-align: left;
+	}
+
+
+ }
