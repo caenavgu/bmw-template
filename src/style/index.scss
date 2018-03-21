@@ -65,6 +65,23 @@ input{
 	margin: 0px;
 	color: $color-text-light;
 }
+.jumbotron{
+	&.jumbotron-fluid{
+	background-image: url('../../dist/public/img/banner2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	color: $color-text-dark;
+}
+}
+.card-img-top{
+	&.img{
+		background-size: cover;
+		height: 300px;
+	}
+}
 .card-img-top2{
 	height: 500px;
 	width: 500px;
@@ -166,6 +183,9 @@ input{
 	&.a2{
 		color: $color-text-dark;
 	}
+	&.a3{
+		color: $color-button;
+	}
 }
 .rounded{
 	margin-left: 30px;
@@ -228,11 +248,13 @@ input{
 .call-now{
 	color: $color-button;
 }
-.card-img-top{
-	&.img{
-		background-size: cover;
-		height: 300px;
+.card-text{
+	&.small{
+		font-size: 8px;
 	}
+}
+.card-body{
+	height: 150px;
 }
 // ID
 
