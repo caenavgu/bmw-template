@@ -11,13 +11,11 @@ module.exports = {
 	module: {
     	rules: [{
 	        test: /\.scss$/,
-	        use: [{
-	            loader: "style-loader" // creates style nodes from JS strings
-	        }, {
-	            loader: "css-loader" // translates CSS into CommonJS
-	        }, {
-	            loader: "sass-loader" // compiles Sass to CSS
-	        }]
+	        use: [
+	        	{ loader: "style-loader", options: { sourceMap: true } }, // creates style nodes from JS strings 
+	            { loader: "css-loader", options: { sourceMap: true } }, // translates CSS into CommonJS
+	        	{ loader: "sass-loader", options: { sourceMap: true } }
+	        ]
 	    },{
 	    	test:/\.(jpg|png)$/,
 	    	use:[

@@ -1,17 +1,17 @@
 /*
 *   Modules dependencies
 */
-@import "custom";
 @import "~bootstrap/scss/bootstrap";
 @import "colors";
+@import "custom";
 @import "tipography";
 @import "button";
 @import "display";
+@import "views/home";
 
 // TAGS
 body {
 	background-color: $color-background-light;
-	font-family: $font-text;
 }
 a{
 	color: $color-text-light;
@@ -52,22 +52,18 @@ input{
 	font-size:1em;
 	color:$color-stars;
 }
-.jumbotronHome1{
-	background-image: url('../../dist/public/img/banner1.jpg');
-	background-size: 100% ;
-	background-repeat: no-repeat;
+.jumbotron{
 	height: 550px;
 	padding: 0px;
 	margin: 0px;
-}
-.jumbotronHome2{
-	background-image: url('../../dist/public/img/banner2.jpg');
-	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
-	padding: 0px;
-	margin: 0px;
-	color: $color-text-light;
+	&.jumbotron-standard{
+		background-size: 100% ;
+	}
+	&.jumbotron-cover{
+		background-size: cover;
+		color: $color-text-light;
+	}
 }
 .card-img-top2{
 	width: 60%;
@@ -115,24 +111,6 @@ input{
 }
 .padding-all{
 	padding: 20px 0 20px 0;
-}
-.col-md-12{
-	&.left{
-		background-image: url('../../dist/public/img/card-home-left.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 250px;
-		padding: 0px;
-		margin: 0px;
-	}
-	&.rigth{
-		background-image: url('../../dist/public/img/card-home-right.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 250px;
-		padding: 0px;
-		margin: 0px;
-	}
 }
 .row-fluid{
 	&.awardsRecognition{

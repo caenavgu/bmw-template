@@ -1,2 +1,6 @@
-#bmw
-# bmw-template
+# BMW Templates
+
+Installation
+```
+$ npm install
+```
