@@ -80,6 +80,14 @@ input{
 	margin-bottom: -150px;
 	margin-left: -20px;
 }
+.card-img-top4{
+	height: 500px;
+	width: 500px;
+	padding: 0px;
+	margin-top: -140px;
+	margin-bottom: -120px;
+	margin-left: -110px;
+}
 .paragraph{
 	margin-left: 100px;
 	width: 300px;
@@ -195,4 +203,52 @@ input{
 .footerImage{
 	margin-left: 5px;
 }
-//ID
+.bodyBackground{
+	background-image: url('../../dist/public/img/background-1.jpg');
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	height: 600px;
+	padding: 0px;
+	margin: 0px;
+	color: $color-text-light;
+	padding-top:150px;
+	font-size: 12px;
+}
+.navbar{
+	background-color: $color-navbar;
+	height: 50px;
+}
+.logo{
+	width: 500px;
+	height: 400px;
+}
+.parent{
+	color: $color-text-light;
+}
+.call-now{
+	color: $color-button;
+}
+.card-img-top{
+	&.img{
+		background-size: cover;
+		height: 300px;
+	}
+}
+// ID
+
+
+
+
+.div-color{
+	border-style: solid;
+	border-width: 5px;
+	&.b1{
+		border-color: red;
+	}
+	&.b2{
+		border-color: green;
+	}
+	&.b3{
+		border-color: blue;
+	}
+}
