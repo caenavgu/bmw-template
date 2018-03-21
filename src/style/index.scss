@@ -59,6 +59,7 @@ input{
 	background-repeat: no-repeat;
 	&.jumbotron-standard{
 		background-size: 100% ;
+
 	}
 	&.jumbotron-cover{
 		background-size: cover;
@@ -190,10 +191,12 @@ input{
 	line-height: 1.6;
 	margin-bottom: -15px;
 }
-
+	.p-5 {
+	    padding: 2rem !important;
+	}
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-.jumbotronHome1{
+.jumbotron{
     background-size: 100% 100% ;
     background-position:center;
   }
@@ -216,10 +219,20 @@ input{
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .jumbotronHome1{
-    background-size: 200% 100% ;
-    background-position:center;
-  }
+  .jumbotron{
+	height: 350px;
+	background-repeat: no-repeat;
+		&.jumbotron-standard{
+			background-size: 150% ;
+			background-position: center;
+		}
+		&.jumbotron-cover{
+			background-size: cover;
+			color: $color-text-light;
+		}
+	}
+
+
   .jumbotronHome2{
   	height: 400px;
   }
