@@ -8,6 +8,7 @@
 @import "button";
 @import "display";
 @import "views/home";
+@import "views/request";
 
 // TAGS
 body {
@@ -60,6 +61,14 @@ a{
 			width: 95px;
 		}
 	}
+	.card-body{
+		background-color: $color-background-light;
+		height: 50px;
+		font-size: 13.4px;
+	}
+	.card-text{
+		height: 75px;;
+	}
 	h2{
 		margin-top: 35px;
 		width: 110px;
@@ -110,7 +119,26 @@ a{
 		font-size: 13px;
 	}
 }
-
+.rounded-circle{
+	width: 12%;
+	height: 50%;
+}
+.jumbotron{
+	padding: 1rem;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&.jumbotron-standard{
+		background-size: 100% ;
+	}
+	&.jumbotron-cover{
+		background-size: cover;
+		color: $color-text-light;
+	}
+	.m{
+		width: 70% !important;
+	}
+}
 
 
 
@@ -132,38 +160,19 @@ a{
 
 
 
-.card-body{
-	background-color: $color-background-light;
-	height: 50px;
-	font-size: 13.4px;
-}
 
 .fa-star{
 	font-size:1em;
 	color:$color-stars;
-}
-.jumbotron{
-	padding: 1rem;
-	margin: 0px;
-	background-repeat: no-repeat;
-	&.jumbotron-standard{
-		background-size: 100% ;
-	}
-	&.jumbotron-cover{
-		background-size: cover;
-		color: $color-text-light;
-	}
 }
 .jumbobot{
 	padding-top: 10rem;
 }
 .card-img-top2{
 	width: 60%;
-    margin-top: 40px;
+  margin-top: 40px;
 }
-.card-img-top4{
-	width: 100%;
-}
+
 .paragraph{
     margin: 0 auto;
 
@@ -203,6 +212,9 @@ a{
 	}
 	&.a2{
 		color: $color-text-dark;
+	}
+	&.a3{
+		color: $color-button;
 	}
 }
 .rounded{
