@@ -53,8 +53,7 @@ input{
 	color:$color-stars;
 }
 .jumbotron{
-	height: 550px;
-	padding: 0px;
+	padding: 1rem;
 	margin: 0px;
 	background-repeat: no-repeat;
 	&.jumbotron-standard{
@@ -66,6 +65,9 @@ input{
 		color: $color-text-light;
 	}
 }
+.jumbobot{
+	padding-top: 10rem;
+}
 .card-img-top2{
 	width: 60%;
     margin-top: 40px;
@@ -74,8 +76,7 @@ input{
 	width: 100%;
 }
 .card-img-top4{
-	margin-top: 150px;
-	max-width: 100%;
+	width: 100%;
 }
 .paragraph{
     margin: 0 auto;
@@ -209,16 +210,22 @@ input{
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 .jumbotronHome1{
-    background-size: 100% 100% ;
+    background-size: 110% 100% ;
     background-position:center;
   }
 	.form-group,.group-images,.text-testimonial,.principal-footer{
 		display: none;
 	}
+	.jumbobot{
+	padding-top: 2rem;
+}
  }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.jumbobot{
+		padding-top: 3rem;
+	}
   .jumbotron{
 	height: 350px;
 	background-repeat: no-repeat;
