@@ -28,6 +28,9 @@ a{
 }
 .padding-all{
 	padding: 20px 0 20px 0;
+	&.l{
+		padding: 40px 0 40px 0;
+	}
 }
 .social-media-bar{
 	background-color: $color-navbar;
@@ -54,7 +57,7 @@ a{
 		background-color: $color-background-light;
 	}
 	&.bg-2{
-		background-color: $color-background-dark;
+		background-color: $color-navbar;
 	}
 	.card-img-top{
 		&.logo-costumer{
@@ -73,11 +76,22 @@ a{
 	}
 
 }
+//
 .card-block{
+	margin-bottom: 10px;
 	.card-text{
 		font-size: 13.4px;
+		height: auto !important;
 	}
 }
+.image-div{
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
 .img-center{
 	margin: 0;
     position: absolute;
@@ -155,6 +169,9 @@ a{
 		background-size: cover;
 		color: $color-text-light;
 	}
+	&.jumbotronHome{
+		color: $color-text-light;
+	}
 	.m{
 		width: 70% !important;
 	}
@@ -190,6 +207,10 @@ a{
 }
 .separators{
 	background-color: $color-navbar;
+	&.dark{
+		background-color: $color-background-dark;
+		color: $color-text-light;
+	}
 }
 .media-body{
 	font-size: 13.4px;
