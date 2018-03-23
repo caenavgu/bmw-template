@@ -50,6 +50,12 @@ a{
 		margin: 0;
 		flex: none;
 	}
+	&.bg-1{
+		background-color: $color-background-light;
+	}
+	&.bg-2{
+		background-color: $color-background-dark;
+	}
 	.card-img-top{
 		&.logo-costumer{
 			height: 120px;
@@ -63,11 +69,15 @@ a{
 	}
 	.card-body{
 		background-color: $color-background-light;
-
 		font-size: 13.4px;
 	}
 	.card-text{
 		height: 75px;;
+	}
+}
+.card-block{
+	.card-text{
+		font-size: 13.4px;
 	}
 }
 .img-center{
@@ -152,25 +162,17 @@ a{
 
 
 
-
 .floating-half{
 	width: 50%;
 	float: left;
 }
-	.mobile-footer{
-		font-size: 15.3px;
-	}
+.mobile-footer{
+	font-size: 15.3px;
+}
 
 	.footClient{
 		font-size: 9px;
 	}
-
-
-
-
-
-
-
 .fa-star{
 	font-size:1em;
 	color:$color-stars;
@@ -182,7 +184,6 @@ a{
 	width: 60%;
   margin-top: 40px;
 }
-
 .paragraph{
     margin: 0 auto;
 
@@ -193,8 +194,6 @@ a{
 .media-body{
 	font-size: 13.4px;
 }
-
-
 .buttonCard{
 	margin-top: -80px;
 	position: relative;
@@ -231,11 +230,9 @@ a{
 	margin-right: 30px;
 	margin-top: 10px;
 }
-
 .row{
 	 margin-right: 0px;
 }
-
 .card-body{
 	height: 150px;
 }
@@ -277,7 +274,6 @@ a{
 	padding-top: 2rem;
 }
  }
-
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	.jumbobot{
@@ -296,10 +292,6 @@ a{
 		}
 	}
 
-
-  .jumbotronHome2{
-  	height: 400px;
-  }
 	.buttonCard{
 		margin-top: 10px;
 		color: $color-text-dark;
