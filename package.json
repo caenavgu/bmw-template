@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "html-template-engine": "0.0.4",
     "jquery": "^3.3.1",
     "npm": "^5.7.1",
     "popper.js": "^1.14.1"
