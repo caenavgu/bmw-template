@@ -71,9 +71,7 @@ a{
 		background-color: $color-background-light;
 		font-size: 13.4px;
 	}
-	.card-text{
-		height: 75px;;
-	}
+
 }
 .card-block{
 	.card-text{
@@ -90,6 +88,9 @@ a{
 .img-content{
 	position: relative;
 	height: 150px;
+	.card-img-top{
+		width: 50%;
+	}
 }
 .bifor{
 	position: relative;
@@ -142,7 +143,6 @@ a{
 }
 .rounded-circle{
 	width: 12%;
-	height: 50%;
 }
 .jumbotron{
 	padding: 1rem;
@@ -233,9 +233,7 @@ a{
 .row{
 	 margin-right: 0px;
 }
-.card-body{
-	height: 150px;
-}
+
 .lead{
 	font-size: 17px;
 	line-height: 100%;
