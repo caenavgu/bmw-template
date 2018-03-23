@@ -1,10 +1,27 @@
 .menu-color{
-	background-color: $color-background-light;
+	background-color: $color-background-menu;
 	& a{
 		color: black ;
 	}
 }
+.nav-tabs{
+	& .nav-link{
+		border: 0px solid transparent;
+		&.active{
+			background-color: $color-menu-princial;
 
+		}
+	}
+}
+.menu-aditional{
+
+}
+.sub-menu{
+	background-color: $color-background-dark;
+}
+.tab-content{
+	background-color:  $color-menu-princial
+}
 .btw-down {
 
     font-size: 14px;
@@ -12,4 +29,10 @@
     border-radius: 22.5px 22.5px;
     border: 0px;
     font-family: "Rufina", serif;
+}
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+li {
+  list-style-type: none;
 }
