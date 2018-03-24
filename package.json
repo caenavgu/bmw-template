@@ -23,7 +23,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --mode development",
     "start:dev": "webpack-dev-server --mode development --hot",
     "startc9": "webpack-dev-server --mode development --hot --open --host $IP --port $PORT"
   },
