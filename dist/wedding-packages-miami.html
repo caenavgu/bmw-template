@@ -6,78 +6,32 @@
 </head>
 <body>
   <!-- MENU -->
-  <div class="pos-f-t">
-    <nav class="navbar">
-      <div class="container">
-      <ul class="nav">
-        <button class="btn-navbar" type="button" data-toggle="collapse" data-target="#navOption1" aria-controls="navOption1" aria-expanded="false" aria-label="Toggle navigation">
-          <span> PICK YOUR VENUE </span>&nbsp;
-        </button>
-        <button class="btn-navbar" type="button" data-toggle="collapse" data-target="#navOption2" aria-controls="navOption2" aria-expanded="false" aria-label="Toggle navigation">
-          <span> PLAN YOUT WEDDING </span>&nbsp;
-        </button>
-      </ul>
-      <ul class="nav justify-content-end">
-        <button class="btn-navbar" type="button" data-toggle="collapse" data-target="#navOption3" aria-controls="navOption3" aria-expanded="false" aria-label="Toggle navigation">
-          <span> GET INSPIERED </span>&nbsp;
-        </button>
-          <button class="btn-navbar" type="button" data-toggle="collapse" data-target="#navOption4" aria-controls="navOption4" aria-expanded="false" aria-label="Toggle navigation">
-        <span> ABOUT US </span>&nbsp;
-        </button>
-      </ul>
-      </div>
-    </nav>
-  <!-- div collapse -->
-  <div class="collapse" id="navOption1">
-    <div class="bg-dark p-4">
-      <h4 class="text-white"></h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <div class="collapse" id="navOption2">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <div class="collapse" id="navOption3">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <div class="collapse" id="navOption4">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-</div>
-<!-- END MENU -->
-<!-- JUMBOTROM -->
+  <span require-file="./components/menu.html"></span>
+  <!-- END MENU -->
+  <!-- JUMBOTROM -->
   <div class="parent">
-      <div class="jumbotron text-center jumbotronHome1">
-          <div class="logo-card">
-              <img class="card-img-top logo" src="../public/img/bmwLogo.png">
-          </div>
+      <div class="jumbotron text-center jumbotronHome" style="background-image: url('./public/img/banner1.jpg')">
+          <div class="col-md-8 offset-md-2">
+              <img class="card-img-top m" src="../public/img/bmwLogo.png">
           <h1>Wedding Miami Packages for Miami</h1>
-          <h6>Pick a packages and start customizing your own wedding</h6>
+          <h2 class="p-2">Pick a packages and start customizing your own wedding</h2>
           <button class="btn btw-l align-text-bottom" href="./page.html" role="button">Request a quote</button><br>
-          <h6 class="call-now"><b>or call now! 305 662 7442</b></h6>
+          <h2 class="p-2" style="color:#993399;">or call now! 305 662 7442</h2>
+        </div>
       </div>
   </div>
 <!-- END JUMBOTROM -->
 <div class="container">
   <div class="row text-center padding-all">
     <div class="col-md-8 offset-md-2">
-      <h6>We've put together some popular packages that may help identify<br> you what's possible and what works for you. Take your time to browser.<br>These are only starting points and can be esaly customized to your needs and desires.</h5>
+      <h1>We've put together some popular packages that may help identify<br> you what's possible and what works for you. Take your time to browser.<br>These are only starting points and can be esaly customized to your needs and desires.</h1>
     </div>
   </div>
 </div>
 <!-- CARGROUP -->
   <div class="card-group">
     <div class="card">
-      <img class="card-img-top img" src="../public/img/card1.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../public/img/card1.jpg" alt="Card image cap">
       <div class="card-body text-center">
         <h5 class="card-title"><b>Merrick</b></h5>
         <p class="card-text">Have it all, the perfect place, the perfect flowers, the perfect menu...no detail has been overlooked. The Merrick Package offers just the right ampount of options and just right amount of choicess.</p>
@@ -85,36 +39,26 @@
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top img" src="../public/img/card2.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Riviera</h5>
+      <img class="card-img-top" src="../public/img/card1.jpg" alt="Card image cap">
+      <div class="card-body text-center">
+        <h5 class="card-title"><b>Riviera</b></h5>
         <p class="card-text">When simplicity not enough, and what you seek is an extravagant affair, the name says it all. Look no further, the Riviera Wedding Package will leave you breathless.</p>
         <p class="card-text clickHere a3 "><small class="text-muted">Read more</small></p>
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top img" src="../public/img/card3.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Gala</h5>
+      <img class="card-img-top" src="../public/img/card1.jpg" alt="Card image cap">
+      <div class="card-body text-center">
+        <h5 class="card-title"><b>Gala</b></h5>
         <p class="card-text">Our simplest packages, but still maintianing the great Best Miami Award Winning Quality. Sit back, relax, and enjoy the ride.</p>
         <p class="card-text clickHere a3"><small class="text-muted">Read more</small></p>
       </div>
     </div>
   </div>
 <!-- END CARDGROUP -->
-<!-- AWARD AND RECOGNITION -->
-  <div class="row-fluid text-center awardsRecognition padding-all">
-      <h5>Awards and Recognition</h5>
-      <div class="text-center">
-        <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-        <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-        <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-        <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      </div>
-      <p>Best Miami Weddingis proud to be recognized of the most important and influential publications and organizations around the world</p>
-      <a class="clickHere a1" href="https://www.w3schools.com">Click here to learn more about our awards.</a>
-  </div>
-<!-- END AWARD AN RECOGNITION -->
+<!-- AWARDA RECOGNITION -->
+  <span require-file="./components/awards-recognition.html"></span>
+<!-- END AWARDA RECOGNITION -->
   <div class="row separators">
     <div class="col-md-12 text-center padding-all">
       <h5>Client"s Testimonials</h5>
@@ -165,82 +109,9 @@
     </div>
   </div>
 <!-- END JUMBOTROM -->
-<!-- SOCIAL MEDIA BAR -->
-  <div class="row-fluid separators padding-all form-group">
-    <div class="col-md-4 offset-md-1 rounded float-left">
-      <div class="socialMediaLogo">
-        <i class="fab fa-instagram">  </i>&nbsp;
-        <i class="fab fa-twitter">  </i>&nbsp;
-        <i class="fab fa-facebook-f"></i>&nbsp;
-        <i class="fab fa-youtube-square"></i>&nbsp;
-        <i class="fab fa-pinterest"></i>
-      </div>
-    </div>
-      <form class=" submit form col-md-4 offset-md-2">
-            <label class="submit">Email address:</label>
-            <div class="form-inline">
-                <input class="form-control col-md-8" type="search" placeholder="Type your email" aria-label="">
-                <button class="btn btw-s" type="submit">Suschibe!</button>
-            </div>
-      </form>
-  </div>
-<!-- END SOCIAL MEDIA BAR -->
-  <div class="row padding-all">
-    <div class=" col-md-12 text-center">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-      <img class="rounded" src="http://via.placeholder.com/80x80" alt="Card image cap">
-    </div>
-  </div>
-<!-- FOOTER -->
-  <div class="row text-center footer">
-    <div class=" col-md-2 offset-md-1 text-left">
-      <h6 class="titleFooter"><b>The company</b></h6>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">About us</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Contact us</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Press & Award</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Our Blog</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Become a Trusted Vendor</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Refer a Bride</a><br>
-    </div>
-    <div class=" col-md-2 text-left">
-      <h6 class="titleFooter"><p>Wedding Gallery</p></h6>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Veneus</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Dress</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Decor</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Cuisine</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Wedding</a><br><br>
-    </div>
-    <div class=" col-md-2 text-left">
-      <h6 class="titleFooter"><b>Our services</b></h6>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Veneus and Location</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Miami Wedding Packages</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Wedding Catherine Menu</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Miami Wedding Churches </a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Trusted Wedding Plenners</a><br><br>
-      <a class="titleFooter subOption"href="https://www.w3schools.com">Go to the old website</a><br><br>
-    </div>
-    <div class=" col-md-4 text-center logoFooterArea">
-      <img class="card-img-top3" src="../public/img/bmwLogo.png">
-      <div class="footerImage">
-        <p class="logoFooterArea p1 text-center">Work with the best, our reputation precede us</p>
-        <div class="inline-block text-center">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-        </div>
-        <p class="logoFooterArea p2 text-center">Average 4.8 rating within alla avaliable review systems <a class="clickHere" href="https://www.w3schools.com">learn more<a> </p>
-    </div>
-    </div>
-  </div>
-<!-- END FOOTER -->
-
+<!-- FOOTER FULL -->
+<span require-file="./components/footer.html"></span>
+<!-- END FOOTER FULL -->
 
 </body>
     <!-- SCRIPT -->
