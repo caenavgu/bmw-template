@@ -17,7 +17,7 @@ module.exports = {
 	        	{ loader: "sass-loader", options: { sourceMap: true } }
 	        ]
 	    },{
-	    	test:/\.(jpg|png)$/,
+	    	test:/\.(jpg|png|svg)$/,
 	    	use:[
 	    		{
 	    			loader:'file-loader',

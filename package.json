@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "html-template-engine": "0.0.4",
     "jquery": "^3.3.1",
     "npm": "^5.7.1",
     "popper.js": "^1.14.1"
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --mode development",
     "start:dev": "webpack-dev-server --mode development --hot",
     "startc9": "webpack-dev-server --mode development --hot --open --host $IP --port $PORT"
   },

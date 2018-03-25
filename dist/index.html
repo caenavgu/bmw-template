@@ -12,7 +12,7 @@
 
             let sitesHTML = '';
             sites.forEach(function(name){
-                sitesHTML += `<li><a href="/${name}.html">${name.toUpperCase()}</a></li>`;
+                sitesHTML += `<li><a href="./${name}.html">${name.toUpperCase()}</a></li>`;
             });
             document.querySelector('#sitemap').innerHTML = sitesHTML;
         </script>
