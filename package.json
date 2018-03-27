@@ -7,7 +7,7 @@
     "bootstrap": "^4.0.0",
     "html-template-engine": "0.0.4",
     "jquery": "^3.3.1",
-    "npm": "^5.7.1",
+    "npm": "^5.8.0",
     "popper.js": "^1.14.1"
   },
   "devDependencies": {

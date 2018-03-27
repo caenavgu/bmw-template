@@ -9,7 +9,8 @@
 @import "display";
 @import "views/home";
 @import "views/request";
-@import "svg.scss";
+@import "img-svg";
+@import "logo";
 
 // TAGS
 body {
@@ -75,6 +76,10 @@ a{
 		background-color: $color-background-light;
 		font-size: 13.4px;
 	}
+	.card-footer{
+		background-color: $color-background-light !important;
+		border: none !important;
+	}
 
 }
 //
@@ -121,7 +126,7 @@ a{
 	.foot-title{
 		font-size: 16px;
 		&.sub{
-			font-size: 11.20px;
+			font-size: 12px;
 		}
 	}
 	img{
@@ -146,15 +151,8 @@ a{
 	color: $color-text-light;
 	display: flex;
 	justify-content: center;
-	.card-deck{
-		display: flex;
-		justify-content: center;
-	}
-	p {
-		font-size: 13.4px;
-	}
 	a{
-		font-size: 13px;
+		font-size: 14px;
 	}
 }
 .rounded-circle{
@@ -165,13 +163,11 @@ a{
 	margin: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: $color-text-light;
 	&.jumbotron-standard{
 	}
 	&.jumbotron-cover{
 		background-size: cover;
-		color: $color-text-light;
-	}
-	&.jumbotronHome{
 		color: $color-text-light;
 	}
 	.m{
@@ -189,7 +185,7 @@ a{
 	font-size: 15.3px;
 }
 
-	.footClient{
+	.foot-client{
 		font-size: 9px;
 	}
 .fa-star{
@@ -213,6 +209,11 @@ a{
 		background-color: $color-background-dark;
 		color: $color-text-light;
 	}
+	&.light{
+		background-color: $color-background-light;
+		color: $color-text-dark;
+	}
+
 }
 .media-body{
 	font-size: 13.4px;
@@ -234,19 +235,17 @@ a{
 .submit{
 	font-size: 10px;
 }
-.clickHere{
+.click-here{
 	text-decoration: underline;
+	color: $color-button;
 	&:hover{
 		color:grey;
 	}
-	&.a1{
-		color: $color-text-light;
+	&.color-light{
+		color: $color-text-light !important;
 	}
-	&.a2{
-		color: $color-text-dark;
-	}
-	&.a3{
-		color: $color-button;
+	&.color-dark{
+		color: $color-text-dark !important;
 	}
 }
 .rounded{
