@@ -36,7 +36,7 @@ a{
 }
 .social-media-bar{
 	background-color: $color-navbar;
-	height: 100px;
+	// height: 100px;
 	font-size:10px;
 	.social-media-logos{
 	  font-size:2em !important;
@@ -74,7 +74,7 @@ a{
 	}
 	.card-body{
 		background-color: $color-background-light;
-		font-size: 13.4px;
+		font-size: 15px;
 	}
 	.card-footer{
 		background-color: $color-background-light !important;
@@ -152,24 +152,44 @@ a{
 	display: flex;
 	justify-content: center;
 	a{
+		font-size: 12px;
+	}
+	p{
 		font-size: 14px;
 	}
+	span{
+			max-height: 150px;
+			padding-left: 0;
+			padding-right: 0;
+		}
 }
 .rounded-circle{
 	width: 12%;
 }
 .jumbotron{
-	padding: 1rem;
-	margin: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: $color-text-light;
-	&.jumbotron-standard{
-	}
-	&.jumbotron-cover{
-		background-size: cover;
-		color: $color-text-light;
-	}
+		&.jb-large{
+			background-repeat: no-repeat;
+			background-position-y: 15%;
+			background-size: cover;
+			padding: 0;
+			margin: 0;
+		}
+		.jb-button{
+			margin-top: 18em;
+		}
+		&.jb-award{
+			color: $color-text-dark;
+			padding: 0;
+			p{
+				font-size: 15px;
+			}
+		}
+			span{
+				outline-color: invert;
+			}
 	.m{
 		width: 70% !important;
 	}
@@ -185,26 +205,19 @@ a{
 	font-size: 15.3px;
 }
 
-	.foot-client{
-		font-size: 9px;
-	}
+
 .fa-star{
 	font-size:1em;
 	color:$color-stars;
-}
-.jumbobot{
-	padding-top: 10rem;
 }
 .card-img-top2{
 	width: 60%;
   margin-top: 40px;
 }
-.paragraph{
-    margin: 0 auto;
 
-}
-.separators{
+.subtitle-bar{
 	background-color: $color-navbar;
+	color: $color-text-dark;
 	&.dark{
 		background-color: $color-background-dark;
 		color: $color-text-light;
@@ -215,9 +228,16 @@ a{
 	}
 
 }
-.media-body{
-	font-size: 13.4px;
+.testimonial-client{
+	.media-body{
+		font-size: 15px;
+	}
 }
+.foot-client{
+	font-size: 12px;
+	margin: 0;
+}
+
 .buttonCard{
 	margin-top: -80px;
 	position: relative;
@@ -238,6 +258,7 @@ a{
 .click-here{
 	text-decoration: underline;
 	color: $color-button;
+	font-weight: none;
 	&:hover{
 		color:grey;
 	}

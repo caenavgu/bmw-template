@@ -8,19 +8,18 @@
   <body log-template-requests="true" class="home">
     <!-- JUMBOTROM -->
     <div class="parent">
-        <div class="jumbotron text-center" style="background-image: url('./public/img/banner1.jpg');">
-            <div class="card logo large mx-auto">
+        <div class="jumbotron jb-large text-center" style="background-image: url('./public/img/home-banner-1.jpg');">
+            <div class="card logo medium mx-auto">
                 <span class="card-img-top mx-auto" id="bmw-logo"></span>
             </div>
-            <div class="jumbobot">
-              <button class="btn btw-l align-text-bottom" href="./request-quote.html." role="button">Request a quote</button><br>
-              <br>
+            <div class="jb-button py-5">
+              <button class="btn btw-l align-text-bottom d-block mx-auto mb-4" href="./request-quote.html." role="button">Request a quote</button>
               <button class="btw-down "><i class="fas fa-caret-down"></i></button>
             </div>
         </div>
     </div>
     <!-- END -->
-    <div class="row separators">
+    <div class="row subtitle-bar py-3">
       <div class="col-md-12 text-center padding-all">
         <h2>Our services</h2>
       </div>
@@ -28,23 +27,27 @@
     <!-- CARD GROUP -->
     <div class="card-group">
       <div class="card">
-          <div class="img" style="background-image: url('./public/img/card-home-left.jpg');"></div>
+          <div class="img" style="background-image: url('./public/img/home-card-1.jpg');"></div>
           <div class="card-body text-center">
             <div class="card-middle-button">
               <p class="card-title h7">Wedding Venues</p>
               <button type="button" class="btn btw-m">Tour the venues</button>
             </div>
-            <p class="card-text p-5">Picking date should be the first step of every wedding, that's why the first things you should do is booking your venue on a specific date. We have a selection of more then 25 spectacular locations.</p>
+            <div class="col-md-8 mx-auto text-center">
+              <p class="card-text pt-4 pb-5">Picking date should be the first step of every wedding, that's why the first things you should do is booking your venue on a specific date. We have a selection of more then 25 spectacular locations.</p>
+            </div>
           </div>
       </div>
       <div class="card">
-        <div class="img" style="background-image: url('./public/img/card-home-right.jpg');"></div>
+        <div class="img" style="background-image: url('./public/img/home-card-2.jpg');"></div>
         <div class="card-body text-center">
           <div class="card-middle-button">
             <p class="card-title h7">Wedding Packages</p>
             <button type="button" class="btn btw-m">Review our wedding packages</button>
           </div>
-        <p class="card-text p-5">Choosing a wedding packages is the best way to get an aproximate budget, once you have a budget you can start customizing everythings to make it your way.</p>
+          <div class="col-md-8 mx-auto text-center">
+            <p class="card-text pt-4 pb-5">Choosing a wedding packages is the best way to get an aproximate budget, once you have a budget you can start customizing everythings to make it your way.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -53,10 +56,10 @@
   <span require-file="./components/awards-recognition.html"></span>
   <!-- END AWARDA RECOGNITION -->
     <!-- JUMBOTROM -->
-    <div class="jumbotron jumbotron-cover d-none d-sm-block" style="background-image: url('./public/img/banner2.jpg');">
+    <div class="jumbotron jb-award jumbotron-cover d-none d-sm-block py-4 px-auto mb-0" style="background-image: url('./public/img/home-banner-2.jpg');">
       <div class="col-md-6 text-center ">
-        <span class="card-img-top my-auto" id="bmw-logo"></span>
-        <p class="paragraph">This is your opportunity to trusly share and celebrate<br>the beginningfo your journey. Let us take the work out of<br> wedding planning and put the fun into your life...<br>for a lifetime of memories.  </p>
+        <span class="logo medium-dark my-auto" id="bmw-logo-dark"></span>
+        <p class=" col-md-10 my-0 mx-auto px-5 pb-3">This is your opportunity to trusly share and celebrate the beginningfo your journey. Let us take the work out of wedding planning and put the fun into your life...for a lifetime of memories.</p>
         <div class="col-md-12 mt-3">
             <span class="logo small" id="wedding-wire-point"></span>
             <span class="logo small" id="wedding-wire"></span>
@@ -65,37 +68,13 @@
       </div>
     </div>
     <!--  -->
-    <div class="row separators">
+    <div class="row subtitle-bar py-3">
       <div class="col-md-12 text-center padding-all">
         <h2>Client's Testimonials</h2>
       </div>
     </div>
     <!-- CLIENT TESTIMONIALS -->
-    <div class="container padding-all">
-      <div class="row">
-        <div class="col-md-6 text-center mx-auto">
-          <img class="mr-3 rounded-circle padding-all" src="./public/img/person1.jpg" alt="Generic placeholder image">
-          <div class="media-body">
-            "My best recommandation ir that if you are looking for a wedding veneus that first your budget Best Miami Wedding is a great place. They have great wedding packages according to your budget, lovely staff, and above all the staff are very professional".
-            <br><br>
-            <p class="text-testimonial">Lorena</p>
-          </div>
-        </div>
-        <div class="col-md-6 text-center mx-auto">
-          <img class="mr-3 rounded-circle padding-all" src="./public/img/person2.jpg" alt="Generic placeholder image">
-          <div class="media-body">
-            "We cannot be happiers with our decision to go with Best Miami Wedding. We selected the Club of Knights veneu because it was small and quaint and had everything we needed for the ceremony cocktail hour, and reception."
-            <br><br>
-            <p class="text-testimonial">Ivette</p>
-          </div>
-       </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p class="foot-client">Read more testimonial by <a class="click-here a2" href="https://www.w3schools.com"> clickng here </a></p>
-        </div>
-      </div>
-    </div>
+    <span require-file="./components/client-testimonial.html"></span>
     <!-- FOOTER FULL -->
     <span require-file="./components/footer.html"></span>
     <!-- END FOOTER FULL -->
