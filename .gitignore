@@ -4,4 +4,8 @@
 node_modules/
 
 # Ignore the dist directory were our bundle files are going to be
-public/*
+dist/bundle.js
+dist/bundle.js.map
+
+#File .svg in dist folder
+dist/.svg
