@@ -7,5 +7,15 @@ node_modules/
 dist/bundle.js
 dist/bundle.js.map
 
-#File .svg in dist folder
-dist/*.svg
+
+# Ignorar todos los ficheros .html...
+*.html
+
+ #... excepto en la carpeta web
+!web/*.html
+
+#Ignore all fine .sgv
+*.svg
+
+#...exception in the file
+!src/img/*.svg
