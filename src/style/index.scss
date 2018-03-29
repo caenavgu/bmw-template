@@ -182,6 +182,10 @@ input{
 			padding-left: 0;
 			padding-right: 0;
 		}
+	&.page{
+
+		.card-body{	background-color: #595a5c;;}
+	}
 }
 .rounded-circle{
 	width: 12%;
