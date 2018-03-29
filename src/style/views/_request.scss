@@ -2,20 +2,23 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: $color-text-light;
-  margin-top: 90px;
+  margin-top: 60px;
+  font-size: 12px;
   &.contact{
     background-color: $color-background-dark;
     margin: 0px !important;
     padding: 10px;
   }
   input {
-    // width: 400px;
-    // height:28px;
     font-size:10px;
   }
   textarea {
-    // width: 400px;
-    // height:28px;
-    font-size:10px;
+height: 255px;
+    font-size: 10px;
+    resize:none;
+    border-radius: 0 !important;
+  }
+  .info{
+    padding-top: 6rem !important;
   }
 }
