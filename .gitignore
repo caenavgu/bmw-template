@@ -8,10 +8,15 @@ dist/bundle.js
 dist/bundle.js.map
 
 # Ignore all fine .sgv
-*.svg
+dist/.svg
 
 #...exception in the file
-!src/img/*.svg
+#!src/img/*.svg
 
-# Ignore all
-*.DS_Store
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+#SASS ignore
+.sass-cache/
+*.css.map
