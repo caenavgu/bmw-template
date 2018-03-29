@@ -1,16 +1,9 @@
 import './style/index.scss';
 import TemplateManager from 'html-template-engine';
-window.onload = TemplateManager.start;
 
 window.onload = function(){
-
-    let pieces = document.querySelectorAll('.include-template');
-    let newPieces = [];
-    pieces.forEach(function(elm){
-       newPieces.push({ element: elm, filePath: elm.getAttribute('filepath')});
-    });
-
-    TemplateManager.loadPieces('',newPieces);
+    
+    TemplateManager.start();
     $(document).ready(function(){
     	let tabselected=null;
 		$('#myTab a').hover( function (e) {
