@@ -1,5 +1,6 @@
 import './style/index.scss';
-import TemplateManager from './js/tm.js';
+import TemplateManager from 'html-template-engine';
+window.onload = TemplateManager.start;
 
 window.onload = function(){
 
