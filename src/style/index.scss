@@ -194,6 +194,12 @@ input{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: $color-text-light;
+		&.jb-xlarge{
+			background-repeat: no-repeat;
+			// background-position-y: 15%;
+			background-size: cover;
+			height: 500px;
+		}
 		&.jb-large{
 			background-repeat: no-repeat;
 			background-position-y: 15%;

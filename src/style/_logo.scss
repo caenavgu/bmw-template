@@ -17,6 +17,9 @@
   &.awards{
   max-height: 80px;
   // filter: invert(100%);
+    &.large{
+       max-height: 110px;
+    }
   }
 
 }
