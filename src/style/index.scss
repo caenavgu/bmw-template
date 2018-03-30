@@ -236,9 +236,11 @@ input{
 			font-size: 15px;
 		}
 	}
+	.title{
+		padding-left: 22%;
+		padding-right: 25%;
+	}
 }
-
-
 
 .floating-half{
 	width: 50%;
@@ -269,8 +271,26 @@ input{
 		background-color: $color-background-light;
 		color: $color-text-dark;
 	}
-
+	p{
+		font-size: 14px;
+	}
 }
+
+.photo-person{
+	height: 233px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.label{
+		width: 100%;
+		font-size: 14px;
+		background-color:rgba(193,150,195,0.57);
+		position:absolute;
+		bottom:0px;
+		color: $color-text-light;
+	}
+}
+
 .testimonial-client{
 	.media-body{
 		font-size: 15px;

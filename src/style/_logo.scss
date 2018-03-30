@@ -21,5 +21,12 @@
        max-height: 110px;
     }
   }
+  &.partners{
+  max-height: 48px !important;
+  // filter: invert(100%);
+    &.width{
+       width: 13% !important;
+    }
+  }
 
 }
