@@ -7,6 +7,7 @@
 .nav-tabs{
 	& .nav-link{
 		border: 0px solid transparent;
+		color: rgba(0, 0, 0, 1)!important;
 		&.active{
 			background-color: $color-menu-princial;
 
@@ -38,4 +39,26 @@ li {
 }
 .checked {
     color: orange;
+}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+      width:100%;
+  }
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
 }
