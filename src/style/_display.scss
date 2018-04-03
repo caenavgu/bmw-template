@@ -19,6 +19,10 @@
 }
 .sub-menu{
 	background-color: $color-background-dark;
+	&a{
+	color:#fff;
+	}
+	a:hover { color: #fff !important; }
 }
 .tab-content{
 	background-color:  $color-menu-princial
@@ -78,4 +82,14 @@ li {
 		font-size: 10px;
 	}
 
+}
+.card-content{
+	background-color:  $color-menu-princial!important;
+}
+.mounted-image{
+	margin-top:-70px;
+	max-width:70px;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
 }
