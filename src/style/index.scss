@@ -40,16 +40,20 @@ input{
 .social-media-bar{
 	background-color: $color-navbar;
 	// height: 100px;
-	font-size:10px;
+	font-size:12px;
 	.social-media-logos{
 	  font-size:2em !important;
 	  color:$color-text-dark;
 	}
 	input {
-		width: 400px;
-		height:28px;
-		font-size:10px;
+		width: 350px !important;
+		height:30px;
+		font-size:12px;
 		border-radius: 0;
+		border: none;
+	}
+	.btw-s{
+		width: 250px;
 	}
 }
 .submit{
@@ -412,7 +416,9 @@ input{
 	}
 	.card-body{
 		height: 250px;
+
 	}
+	@media (max-width: 480px) {.card-body{height: 155px;} }
 	.card-text{
 		margin-top: 20px;
 	}
