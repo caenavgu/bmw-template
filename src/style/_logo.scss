@@ -28,5 +28,12 @@
        width: 13% !important;
     }
   }
+  &.costumers{
+  max-height: 50px !important;
+  // filter: invert(100%);
+    &.width{
+       width: 30% !important;
+    }
+  }
 
 }
