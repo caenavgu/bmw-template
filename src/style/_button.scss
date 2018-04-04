@@ -16,7 +16,6 @@
   &:active{
     background-color: $color-background-light;
   }
-
 }
 .btw-l{
   width: 193px;
@@ -45,10 +44,10 @@
   color: $color-text-dark;
   background-color: $color-navbar;
   border: 0px;
-	&:hover{
-		background-color:  $color-navbar;
+  &:hover{
+    background-color:  $color-navbar;
     border: 0px;
-	}
+  }
   &:focus{
     background-color:  $color-navbar ;
     border: 0px;
