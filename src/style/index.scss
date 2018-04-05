@@ -387,11 +387,7 @@ input{
 	.awardsRecognition {
 		height: 400px;
 	}
-	.card-body{
-		height: 250px;
 
-	}
-	@media (max-width: 480px) {.card-body{height: 155px;} }
 	.card-text{
 		margin-top: 20px;
 	}
@@ -407,4 +403,20 @@ input{
 	.media-body{
 		text-align: left;
 	}
+	.jumbotron{
+		.jb-button{
+			margin-top: 9em;
+		}
+	}
+	.home{
+
+	    .card-middle-button{
+	      margin-top: 0px;
+	      color: $color-text-dark;
+	    }
+	}
+	.subtitle-bar{
+	background-color: $color-background-light;
+	}
+
 }
