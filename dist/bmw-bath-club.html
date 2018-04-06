@@ -7,9 +7,10 @@
 <body>
   <!-- MENU -->
   <span require-file="./components/menu.html"></span>
+  <span require-file="./components/menu-others.html"></span>
   <!-- END MENU -->
   <!-- JUMBOTROM -->
-  <div class="row sub-menu" >
+  <div class="row sub-menu d-none d-sm-block" >
           <div class="container">
             <ul class="p-2 container text-uppercase large text-center m-auto"  role="tablist">
 
@@ -36,7 +37,7 @@
 
 
         </div>
-  <div class="parent">
+  <div class="parent d-none d-sm-block">
       <div class="jumbotron  text-center pt-4 pb-3 my-0" style="background-image: url('./public/img/pexels-photo-265871.jpeg')">
         <div class="card logo medium mx-auto">
               <span class="card-img-top mx-auto" id="bmw-logo"></span>
@@ -55,28 +56,61 @@
 <section>
     <div class="card bg-1">
       <div class="row ">
-        <div class="col-md-7 px-3 padding-all l">
-          <div class="card-body max-h text-right pt-4">
+        <div class="col-md-7 px-4 p-sm-5 l">
+          <div class="p-0 p-sm-3 max-h text-sm-right text-center pt-4">
+            <h1 class="d-sm-none d-block pb-4">The Bath Club</h1>
+            <div class="d-sm-none d-block text-left">
+              <p class="px-3">Call now</p>
+              <h2 class="d-sm-none d-block px-3">305 662 7442</h2>
+              <hr>
+            </div>
+
             <p class="card-text">The Bath Club is a hidden gem located on the beach in the beautiful City of Miami Beach and is is the ideal setting for a romantic and memorable wedding. With over 26,000 square feet of event space, your guests will experience a different era as they enter our unique and charismatic rooms. From a simple yet distinctive cocktail to an 8-course sit-down meal, The Bath Club offers the ideal rental venue for an unforgettable event.</p>
           </div>
 
         </div>
-        <div class="col-md-5 px-4 padding-all l">
-          <div class="card-body max-h text-center">
+        <div class="col-md-5 px-4 p-sm-5 l">
+          <div class="p-0 p-sm-3 max-h text-left text-sm-center p-0 p-sm-3 d-none d-sm-block">
             <p></p>
-            <p class="card-text ">400 people capacity</p>
+
+            <p class="card-text ">   400 people capacity</p>
 
             <p class="card-text">The event must end by 01:00 am</p>
           </div>
-          <div class="card-block px-3 text-center">
 
-          </div>
+          <div class="px-2 text-left d-sm-none d-block ">
+            <hr>
+            <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-users text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p> 400 people capacity</p>
+              </div>
+
+            </div>
+             <hr>
+             <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-clock text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p> The event must end by 01:00 am</p>
+              </div>
+
+            </div>
+
+            <hr>
+
+        </div>
+        <div class="d-sm-none d-block">
+
         </div>
       </div>
     </div>
 
   <!--  -->
-  <div class="card bg-1">
+  <div class="card bg-1 d-none d-sm-block">
     <div class="row ">
       <div class="col-md-6 p-0">
         <img src="../public/img/card1.jpg" class="w-100">
@@ -89,21 +123,21 @@
   <!--  -->
   <div class="card bg-2">
     <div class="row ">
-      <div class="col-md-6 px-3 padding-all l card-body">
-        <div class="card-body max-h text-center">
+      <div class="col-md-6 px-4 p-sm-5 l p-0 p-sm-3 d-none d-sm-block">
+        <div class="p-0 p-sm-3 max-h text-center">
           <p class="h8 card-title">Address and location for The Bath Club</p>
           <h5> <strong></strong> </h5>
           <p>5937 Collins Avenue, Miami Beach, FL 33140</p>
         </div>
       </div>
-      <div class="col-md-6 image-div p-0" >
+      <div class="col-md-6 col-12 image-div p-0"  style="min-height:200px;">
         <div id="map" style="width:100%;height:100%;"></div>
 
       </div>
     </div>
   </div>
  <div class="card bg-1">
-    <div class="row tab-content ">
+    <div class="row tab-content d-none d-sm-block ">
       <div class="col-md-4 p-5  text-center tab-content">
         <h5> <strong>Acommodations</strong> </h5>
         <br>
@@ -121,16 +155,60 @@
         <p>Public transportation less than one block away from the venue. And easy access to all the principal traffic arteries of the city.</p>
       </div>
     </div>
+    <div class="px-4 text-left d-sm-none d-block">
+          <hr>
+            <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-map-marker-alt text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p>Valet parking mandatory</p>
+              </div>
+            </div>
+             <hr>
+             <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-bell text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p> Mare Azur Luxury Suites</p>
+                <p>Hilton Cabana Miami Beach</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-bus text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p> Public transportation less than one block away from the venue</p>
+              </div>
+            </div>
+             <hr>
+             <div class="row text-left">
+              <div class="col-2">
+                <i class="fas fa-comments text-purple fa-2x"></i>
+              </div>
+              <div class="col-10">
+                <p>   Aggregated score 4.4</p>
+              </div>
+            </div>
+            <hr>
+            <div class="text-center">
+              <h2>The Bottom Half</h2>
+              <p>The Bath Club is a hidden gem located on the beach in the beautful City of Miami Beach and is the ideal setting for a romantic and memorable wedding. With over 26.000 square of feet of event space, your guests will experience a different era as they enter our unique and charismatic rooms. <br> From a simple yet distinctive cocktail to an 8-course sit-down meal, The Bath Club Offers the ideal rental venue for an unforgettable event.</p>
+            </div>
+    </div>
   </div>
-  <div class="card separators awards-recognition" >
+  <div class="card separators awards-recognition d-none d-sm-block" >
     <div class="row ">
-      <div class="col-md-6 padding-all l "  style="background-image: url('./public/img/tcok.png'); background-size:100%; background-repeat:no-repeat">
+      <div class="col-md-6 p-sm-5 l "  style="background-image: url('./public/img/tcok.png'); background-size:100%; background-repeat:no-repeat">
         <div class="p-5 text-center">
            <p class="h8 card-title">Layout for The Bath Club</p>
 
         </div>
       </div>
-      <div class="col-md-6  padding-all l">
+      <div class="col-md-6  p-sm-5 l">
         <div class="p-5 text-center">
           <b>BALLROOM</b>
           <p>
@@ -158,10 +236,10 @@
 
 </section>
 <!-- CLIENT REVIEW -->
-<div class="card bg-1">
+<div class="card bg-1 d-none d-sm-block">
       <div class="row ">
-      <div class="col-md-12 px-3 padding-all l card-body">
-        <div class="card-body max-h text-center">
+      <div class="col-md-12 px-4 p-sm-5 l p-0 p-sm-3">
+        <div class="p-0 p-sm-3 max-h text-center">
           <p class="h8 card-title">The Bath Club's Reviews</p>
           <h5> <strong></strong> </h5>
           <p class="mb-0">Agregated Score</p>
@@ -181,7 +259,7 @@
     </div>
   </div>
 
-  <div class="card bg-2">
+  <div class="card bg-2 d-none d-sm-block">
     <div class="row  ">
       <div class="col-md-4 py-5  text-center tab-content">
         <h5> <strong>The Pro's</strong> </h5>

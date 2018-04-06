@@ -99,9 +99,7 @@ input{
 	.card-body{
 		background-color: $color-background-light;
 		font-size: 15px;
-		&.max-h{
-			max-height: 170px;
-		}
+
 	}
 	.card-footer{
 		background-color: $color-background-light !important;
@@ -306,6 +304,9 @@ input{
 		color: $color-text-dark !important;
 	}
 }
+.color-dark{
+		color: $color-text-dark !important;
+	}
 //
 .rounded{
 	margin-right: 30px;
@@ -427,6 +428,15 @@ input{
 	}
 	.rounded-circle{
 	width:100%;
+	}
+	.card{
+
+		&.bg-2{
+			background-color: $color-background-light;
+		}
+	}
+	.tab-content{
+	background-color:$color-background-light;
 	}
 
 }
