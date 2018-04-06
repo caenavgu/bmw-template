@@ -332,6 +332,9 @@ input{
 	display: flex;
 	align-items: center;
 }
+.text-purple{
+	color:$color-button;
+}
  //
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {

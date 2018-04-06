@@ -16,7 +16,13 @@ window.onload = function(){
 		 	$('#myTab a').removeClass('active show');
 		 	console.log(1)
 		 });
+
+		 function topFunction() {
+		    document.body.scrollTop = 0; // For Safari
+		    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
 	})
+
 
 // Gets the video src from the data-src on each button
 
